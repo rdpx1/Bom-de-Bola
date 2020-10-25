@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0.5dp"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/numero_jogador_visitante"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_textview"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/nome_jogador_visitante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Nome do Jogador"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+</RelativeLayout>

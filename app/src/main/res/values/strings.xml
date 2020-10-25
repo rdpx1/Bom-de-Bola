@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bom de Bola</string>
+    <string name="partida">PARTIDA</string>
+    <string name="voltar">VOLTAR</string>
+    <string name="rodada" />
+    <string name="sair">SAIR</string>
+    <string name="campeonatos">CAMPEONATOS</string>
+    <string name="logobom">LOGOBOM</string>
+</resources>

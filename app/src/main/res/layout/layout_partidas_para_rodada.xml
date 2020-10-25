@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@drawable/gradient">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/brasao_local"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/time_local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/brasao_local"
+        android:text="Pewpew"
+        android:textColor="#000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/versus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/time_local"
+        android:text="X"
+        android:textColor="#000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/time_visitante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="42dp"
+        android:layout_toRightOf="@+id/versus"
+        android:text="Pewpew"
+        android:textColor="#000"
+        android:textSize="17sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/brasao_visitante"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="145dp"
+        android:layout_toRightOf="@id/time_visitante"
+        android:src="@mipmap/ic_launcher" />
+
+
+</RelativeLayout>
